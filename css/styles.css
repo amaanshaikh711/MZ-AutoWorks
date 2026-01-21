@@ -655,45 +655,7 @@ p {
 
 @media (max-width: 768px) {
     .car-transition-section {
-        min-height: 400px;
-        padding: 4rem 0;
-    }
-
-    .car-transition-content {
-        padding: 0 2rem;
-        max-width: 100%;
-    }
-
-    .transition-text h2 {
-        font-size: 1.75rem;
-    }
-
-    .transition-text p {
-        font-size: 1rem;
-    }
-
-    .animated-car {
-        height: 300px;
-        right: -80px;
-    }
-}
-
-@media (max-width: 480px) {
-    .car-transition-section {
-        min-height: 320px;
-    }
-
-    .transition-text h2 {
-        font-size: 1.5rem;
-    }
-
-    .transition-text p {
-        font-size: 0.9rem;
-    }
-
-    .animated-car {
-        height: 220px;
-        right: -50px;
+        display: none !important;
     }
 }
 
@@ -2236,24 +2198,24 @@ section {
     align-items: center;
     justify-content: center;
     background: linear-gradient(135deg, rgba(69, 123, 157, 0.35), rgba(230, 57, 70, 0.30)),
-        url('images/denting-cover.webp') center/cover;
+        url('../images/denting-cover.webp') center/cover;
     padding: 8rem 0 4rem;
     text-align: center;
 }
 
 .service-hero-painting {
     background: linear-gradient(135deg, rgba(69, 123, 157, 0.35), rgba(230, 57, 70, 0.30)),
-        url('images/car-painting.jpg') center/cover;
+        url('../images/car-painting.jpg') center/cover;
 }
 
 .service-hero-polish {
     background: linear-gradient(135deg, rgba(69, 123, 157, 0.35), rgba(230, 57, 70, 0.30)),
-        url('images/polish-2.webp') center/cover;
+        url('../images/polish-2.webp') center/cover;
 }
 
 .service-hero-accident {
     background: linear-gradient(135deg, rgba(69, 123, 157, 0.35), rgba(230, 57, 70, 0.30)),
-        url('images/accidental-repairs-cover.jpg') center/cover;
+        url('../images/accidental-repairs-cover.jpg') center/cover;
 }
 
 .service-hero-mechanical {
@@ -2263,7 +2225,7 @@ section {
 
 .service-hero-maintenance {
     background: linear-gradient(135deg, rgba(69, 123, 157, 0.35), rgba(230, 57, 70, 0.30)),
-        url('images/car-maintenance.jpg') center/cover;
+        url('../images/car-maintenance.jpg') center/cover;
 }
 
 .service-hero-overlay {
